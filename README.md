@@ -7,6 +7,7 @@ A collection of reusable skills for AI coding agents. Each skill contains a `SKI
 | Skill | Description |
 | --- | --- |
 | [am-feature](skills/am-feature/SKILL.md) | Clarify feature requirements through a focused text conversation in English and write an English specification to `docs/feature/<topic>.md` without implementing it. |
+| [doc-coauthoring](skills/doc-coauthoring/SKILL.md) | Co-author documentation through context gathering, iterative refinement, and reader testing. |
 | [git-commit](skills/git-commit/SKILL.md) | Analyze changes, stage related files, and create emoji-prefixed Conventional Commits. |
 
 ## Repository Structure
@@ -17,6 +18,8 @@ am-skills/
 ├── README.md
 └── skills/
     ├── am-feature/
+    │   └── SKILL.md
+    ├── doc-coauthoring/
     │   └── SKILL.md
     └── git-commit/
         └── SKILL.md
